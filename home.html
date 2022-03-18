@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Criar Sala - Rocket.q</title>
+
+    <!-- linking css -->
+    <link rel="stylesheet" href="style/global.css" />
+    <link rel="stylesheet" href="style/home.css" />
   </head>
   <body>
     <header><img src="assets/img/logo.svg" alt="Rocket.q Logo" /></header>
@@ -15,8 +19,13 @@
           <h2>Entre como participante</h2>
           <form action="">
             <label class="sr-only" for="room-id">Código da sala</label>
-            <input type="text" id="room-id" />
-            <button>Entrar na sala</button>
+            <input type="number" id="room-id" placeholder="Código da sala" />
+            <button>
+              <img
+                src="assets/img/enter-room-icon.svg"
+                alt="rocket.q - icone entrar na sala"
+              />Entrar na sala
+            </button>
           </form>
         </section>
         <div class="separator">
@@ -27,6 +36,12 @@
 
         <section>
           <h2>Crie sua própria sala de forma sala, de forma fácil</h2>
+          <a href="create-room.html"
+            ><img
+              src="assets/img/button-create-room-icon.svg"
+              alt="rocket.q - icone usuários"
+            />Criar sala</a
+          >
         </section>
       </div>
     </main>
