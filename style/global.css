@@ -49,3 +49,22 @@ textarea {
   white-space: nowrap;
   border-width: 0;
 }
+
+.content {
+  margin: 0 auto;
+  width: 100%;
+}
+
+input,
+button,
+.button {
+  height: 5rem;
+  border-radius: 0.8rem;
+}
+
+button,
+.button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  line-height: 0;
+}
