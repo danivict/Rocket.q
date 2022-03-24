@@ -83,7 +83,8 @@ button,
   transition: 0.2s;
 }
 
-button:hover {
+button:hover,
+.button:hover {
   filter: brightness(1.2);
 }
 
