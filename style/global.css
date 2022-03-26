@@ -36,8 +36,15 @@ buttom,
 input,
 textarea {
   font-size: clamp(14px, 1.6rem, 2vw);
-
   font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.8rem;
+  color: var(--black);
+  font-weight: 700;
+  line-height: 4.2rem;
 }
 
 .sr-only {

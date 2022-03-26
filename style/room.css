@@ -1,0 +1,149 @@
+.content {
+  max-width: min(90%, 112rem);
+}
+
+#room header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#room header .buttons {
+  display: flex;
+}
+
+#room header .buttons .button:nth-child(1) {
+  margin-right: 0.8rem;
+  padding: 1.3rem 1.6rem;
+}
+
+#room header .buttons .button:nth-child(1) img {
+  margin-left: 1rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+#room header .buttons .button:nth-child(2) {
+  padding: 1.3rem 3.2rem;
+}
+
+#room header .buttons .button:nth-child(2) img {
+  height: 2rem;
+  width: 2rem;
+}
+
+/* question form */
+#question-forms h2 {
+  margin-bottom: 2.4rem;
+}
+
+#question-forms form {
+  border: 0.2rem var(--grey-blue) solid;
+  border-radius: 0rem 0.8rem 0.8rem 0.8rem;
+  padding: 1.6rem;
+
+  margin-bottom: 1.6rem;
+}
+
+#question-forms form textarea {
+  background: transparent;
+  resize: none;
+
+  outline: none;
+  width: 100%;
+}
+
+#question-forms form textarea::placeholder {
+  color: var(--grey-blue);
+}
+
+#question-forms form footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#question-forms form footer > div {
+  display: flex;
+  align-items: center;
+  color: var(--icons-details);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+#question-forms form footer > div img {
+  margin-right: 0.9rem;
+}
+
+#question-forms form footer button {
+  height: auto;
+  padding: 0.8rem 2.4rem;
+  line-height: 2.4rem;
+}
+
+.question-wrapper {
+  background-color: var(--light-blue);
+  border-radius: 0rem 0.8rem 0.8rem 0.8rem;
+  padding: 2.4rem;
+
+  margin-bottom: 0.8rem;
+
+  
+}
+
+.question-wrapper .question-content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.question-wrapper .question-content .user {
+  background-color: var(--blue);
+  clip-path: circle();
+  padding: 1.4rem;
+}
+
+.question-wrapper .question-content p {
+  margin-left: 1.6rem;
+  word-break: break-word;
+  display: flex;
+  align-items: center;
+  min-height: 5.5rem;
+}
+
+.question-wrapper .actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.question-wrapper .actions > a {
+  display: flex;
+  align-items: center;
+  margin-right: 2.4rem;
+}
+
+.question-wrapper .actions > a > img {
+  margin-right: 0.8rem;
+}
+
+.question-wrapper .actions > a + a{
+  margin-left: 2.4rem;
+}
+
+.question-wrapper.read {
+  background-color: var(--grey-medium);
+}
+
+.question-wrapper.read .question-content .user {
+  background-color: var(--grey-blue);
+}
+
+.question-wrapper.read .actions .delete {
+  display: none;
+}
+
+.question-wrapper.read .actions .check {
+  content: "Sim";
+}
